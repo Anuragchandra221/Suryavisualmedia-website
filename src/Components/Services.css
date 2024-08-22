@@ -1,0 +1,32 @@
+.service{
+    /* width: fit-content; */
+    background-color: #fff;
+    border-radius: 17.35px;
+}
+.services{
+    /* width: fit-content; */
+}
+.service-text{
+    color: #425466;
+}
+.service>img{
+    /* width: 90%; */
+    width: 300px;
+}
+.service-btn{
+    border-radius: 10px;
+    background-color: #B74447;
+    color: #fff;
+    font-size: 14px;
+}
+.service-heading{
+    font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+    .services{
+        width: 90%;
+    }   
+    .service>img{
+        width: 350px;
+    }
+}

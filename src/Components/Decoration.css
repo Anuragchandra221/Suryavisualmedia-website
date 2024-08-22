@@ -1,0 +1,26 @@
+.decor-images{
+    width: 100px;
+}
+.decor-text{
+    font-family: "Yellowtail", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #979797;
+  font-size: 72px;
+  text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+    .decor-text{
+        font-size: 100px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .decor-text{
+        font-size: 120px;
+    }
+    .decor-images{
+        width: 150px;
+    }
+}

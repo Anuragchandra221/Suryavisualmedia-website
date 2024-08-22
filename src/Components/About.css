@@ -1,0 +1,20 @@
+.about-heading{
+    color: #fff;
+    font-weight: 1000;
+    font-size: 34px;
+}
+.about-text{
+    color: #636363;
+    font-size: 18px;
+    line-height: 1.5em;
+    text-align: center;
+}
+@media screen and (min-width: 768px) {
+    .about-heading{
+        font-size: 48px;
+        width: 90%;
+    }
+    .about-text{
+        width: 90%;
+    }
+}
